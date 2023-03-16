@@ -3,10 +3,10 @@
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
  Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Descripción: Función que permite obtener la información de las empresas que esten asignadas como empresas responsables
+ Dependencias: usuarios.tbl_cat_empresa, usuarios.tbl_det_empresa_asignacion_responsable
+ ERD: NO
+ Nombre ERD: NO
  */
 -- FUNCTION: usuarios.get_empresa_responsable(integer, integer)
 -- DROP FUNCTION IF EXISTS usuarios.get_empresa_responsable(integer, integer);

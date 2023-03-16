@@ -3,10 +3,10 @@
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
  Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Descripción: Función que permite obtener la información de todas las empresas.
+ Dependencias: usuarios.tbl_cat_empresa, 
+ ERD: NO
+ Nombre ERD: NO 
  */
 -- FUNCTION: usuarios.get_empresas(character varying, integer, integer)
 -- DROP FUNCTION IF EXISTS usuarios.get_empresas(character varying, integer, integer);
