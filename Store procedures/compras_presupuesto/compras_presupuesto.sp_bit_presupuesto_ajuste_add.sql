@@ -2,11 +2,11 @@
  Creado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
- Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Modificado: 16 marzo 2023
+ Descripción: Obtiene la información del detalle de todos los presupuestos
+ Dependencias: compras_presupuesto.tbl_det_presupuesto, compras_presupuesto.tbl_cat_presupuesto, compras_cuenta.tbl_cat_cuenta
+ ERD: NO
+ Nombre ERD: NO
  */
 -- PROCEDURE: compras_presupuesto.sp_bit_presupuesto_ajuste_add(integer, character varying, integer, integer, numeric, character varying, integer)
 -- DROP PROCEDURE IF EXISTS compras_presupuesto.sp_bit_presupuesto_ajuste_add(integer, character varying, integer, integer, numeric, character varying, integer);

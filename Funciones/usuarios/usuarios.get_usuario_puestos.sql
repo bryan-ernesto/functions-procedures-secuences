@@ -4,9 +4,9 @@
  Creado: 13 marzo 2023
  Modificado: 16 marzo 2023
  Descripción: Función que obtiene la información del puesto de un usuario a patir del id del usuario
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Dependencias: tbl_det_usuario_asignacion_puesto, tbl_det_puesto_asignacion_equipo, tbl_cat_puesto, tbl_cat_equipo, tbl_cat_departamento, tbl_cat_empresa
+ ERD: NO
+ Nombre ERD: NO
  */
 -- FUNCTION: usuarios.get_usuario_puestos(integer, integer)
 -- DROP FUNCTION IF EXISTS usuarios.get_usuario_puestos(integer, integer);
