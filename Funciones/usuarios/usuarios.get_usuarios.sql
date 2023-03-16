@@ -1,3 +1,15 @@
+/*
+ Creado por: Bryan Gámez (bgamez@groupnova.com.gt)
+ Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
+ Creado: 13 marzo 2023
+ Modificado: 16 marzo 2023
+ Descripción: Función que permite obtener los usuarios que coicidan con los parámetros enviados, estos parámetros funcionan como filtros para encontrar al usuario deseado.
+ Dependencias: tbl_cat_usuario, tbl_cat_usuario_dominio, tbl_cat_usuario_categoria, tbl_det_usuario_asignacion_puesto, tbl_det_puesto_asignacion_equipo, tbl_cat_puesto, tbl_cat_equipo, tbl_cat_departamento, tbl_cat_empresa, 
+ ERD: NO
+ Nombre ERD: NO
+ */
+-- FUNCTION: usuarios.get_usuarios(character varying, integer, integer, character varying, integer, integer, integer)
+-- DROP FUNCTION IF EXISTS usuarios.get_usuarios(character varying, integer, integer, character varying, integer, integer, integer);
 CREATE
 OR REPLACE FUNCTION usuarios.get_usuarios(
   str_usuario_nombre character varying,

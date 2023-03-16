@@ -2,8 +2,8 @@
  Creado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
- Modificado: 13 marzo 2023
- Descripción: 
+ Modificado: 16 marzo 2023
+ Descripción: Función que obtiene la información del puesto de un usuario a patir del id del usuario
  Dependencias: 
  ERD:
  Nombre ERD: 

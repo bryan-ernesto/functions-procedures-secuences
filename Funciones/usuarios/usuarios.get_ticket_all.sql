@@ -2,11 +2,11 @@
  Creado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
- Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Modificado: 16 marzo 2023
+ Descripción: Función que permite obtener todos los tickets según los parámetros aplicando un filtro por la referencia enviada.
+ Dependencias: tbl_bit_ticket, tbl_cat_usuario, tbl_cat_equipo, tbl_cat_ticket_tipo,                    tbl_cat_ticket_canal, tbl_cat_ticket_prioridad, tbl_cat_ticket_estado_proceso, tbl_cat_ticket_estado_resolucion, tbl_cat_proceso, tbl_bit_ticket_seguimiento
+ ERD: NO
+ Nombre ERD: NO
  */
 -- FUNCTION: usuarios.get_ticket_all(character varying, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, character varying, character varying, character varying, character varying, character varying, character varying, character varying, character varying, character varying, character varying, character varying, character varying, character varying, character varying)
 -- DROP FUNCTION IF EXISTS usuarios.get_ticket_all(character varying, integer, integer, integer, integer, integer, integer, integer, integer, integer, integer, character varying, character varying, character varying, character varying, character varying, character varying, character varying, character varying, character varying, character varying, character varying, character varying, character varying, character varying);
