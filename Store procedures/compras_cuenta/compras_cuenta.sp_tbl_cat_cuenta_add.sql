@@ -3,10 +3,10 @@
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
  Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Descripción: Procedimiento que permite agregar una nueva cuenta y relacionarla con una clasificación
+ Dependencias: compras_cuenta.tbl_cat_cuenta_clasificacion
+ ERD: NO
+ Nombre ERD: NO
  */
 -- PROCEDURE: compras_cuenta.sp_tbl_cat_cuenta_add(integer, character varying, character varying, integer)
 -- DROP PROCEDURE IF EXISTS compras_cuenta.sp_tbl_cat_cuenta_add(integer, character varying, character varying, integer);

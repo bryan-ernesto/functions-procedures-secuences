@@ -3,10 +3,10 @@
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
  Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Descripción: función que obtiene toda la información de una o todas las cuentas
+ Dependencias: compras_cuenta.tbl_cat_cuenta, compras_cuenta.tbl_cat_cuenta_clasificacion
+ ERD: NO
+ Nombre ERD: NO
  */
 -- FUNCTION: compras_cuenta.get_cuenta(character varying, integer, integer, integer)
 -- DROP FUNCTION IF EXISTS compras_cuenta.get_cuenta(character varying, integer, integer, integer);
