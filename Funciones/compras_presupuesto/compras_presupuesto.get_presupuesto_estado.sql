@@ -3,10 +3,10 @@
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
  Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Descripción: función que obtiene la información de los tipos de estado de un presupuesto
+ Dependencias: compras_presupuesto.tbl_cat_presupuesto_estado, usuarios.tbl_cat_usuario
+ ERD: NO
+ Nombre ERD: NO
  */
 -- FUNCTION: compras_presupuesto.get_presupuesto_estado(character varying, integer, integer)
 -- DROP FUNCTION IF EXISTS compras_presupuesto.get_presupuesto_estado(cha racter varying, integer, integer);

@@ -3,10 +3,10 @@
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
  Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Descripción: procedimiento que permite actualizar la información de un estado para presupuestos por medio de su id
+ Dependencias: compras_presupuesto.tbl_cat_presupuesto_estado
+ ERD: NO
+ Nombre ERD: NO
  */
 -- PROCEDURE: compras_presupuesto.sp_cat_presupuesto_estado_update(integer, character varying, character varying, integer, integer)
 -- DROP PROCEDURE IF EXISTS compras_presupuesto.sp_cat_presupuesto_estado_update(integer, character varying, character varying, integer, integer);

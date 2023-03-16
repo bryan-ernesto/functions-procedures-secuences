@@ -2,11 +2,11 @@
  Creado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
- Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Modificado: 16 marzo 2023
+ Descripción: procedimiento que permite agregar un nuevo estado para un presupuesto
+ Dependencias: compras_presupuesto.tbl_cat_presupuesto_estado
+ ERD: NO
+ Nombre ERD: NO
  */
 -- PROCEDURE: compras_presupuesto.sp_cat_presupuesto_estado_add(character varying, character varying, integer)
 -- DROP PROCEDURE IF EXISTS compras_presupuesto.sp_cat_presupuesto_estado_add(character varying, character varying, integer);

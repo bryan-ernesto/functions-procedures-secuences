@@ -2,11 +2,11 @@
  Creado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
- Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Modificado: 16 marzo 2023
+ Descripción: función que obtiene la información de todos los presupuestos o un presupuesto de una empresa a tráves de su ID
+ Dependencias: compras_presupuesto.tbl_cat_presupuesto, usuarios.tbl_cat_empresa, usuarios.tbl_cat_usuario, compras_presupuesto.tbl_cat_presupuesto_estado
+ ERD: NO
+ Nombre ERD: NO
  */
 -- FUNCTION: compras_presupuesto.get_presupuesto(integer, integer, integer, integer)
 -- DROP FUNCTION IF EXISTS compras_presupuesto.get_presupuesto(integer, integer, integer, integer);
