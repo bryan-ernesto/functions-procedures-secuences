@@ -3,10 +3,10 @@
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
  Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Descripción: procedimiento que muestra el tipo de giro de un proveedor
+ Dependencias: compras_proveedor.tbl_cat_proveedor_giro
+ ERD: NO
+ Nombre ERD: NO
  */
 -- FUNCTION: compras_proveedor.get_cat_proveedor_giro(character varying, integer, integer)
 -- DROP FUNCTION IF EXISTS compras_proveedor.get_cat_proveedor_giro(character varying, integer, integer);

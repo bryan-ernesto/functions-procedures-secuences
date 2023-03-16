@@ -2,11 +2,11 @@
  Creado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
- Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Modificado: 16 marzo 2023
+ Descripción: función que hace un conteo de las tareas activas que tiene un usuario por medio de su id
+ Dependencias: nova_proceso_tarea.tbl_bit_tarea_registro, nova_proceso_tarea.tbl_cat_tarea
+ ERD: NO
+ Nombre ERD: NO
  */
 -- FUNCTION: nova_proceso_tarea.get_count_tareas_activas(integer)
 -- DROP FUNCTION IF EXISTS nova_proceso_tarea.get_count_tareas_activas(integer);

@@ -2,11 +2,11 @@
  Creado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
- Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Modificado: 16 marzo 2023
+ Descripción: procedimiento que permite añadir un comentario a una tarea por medio del id de la tarea
+ Dependencias: nova_proceso_tarea.tbl_bit_tarea_comentario
+ ERD: NO
+ Nombre ERD: NO
  */
 -- PROCEDURE: nova_proceso_tarea.sp_tbl_cat_comentario_add(integer, character varying, integer, integer)
 -- DROP PROCEDURE IF EXISTS nova_proceso_tarea.sp_tbl_cat_comentario_add(integer, character varying, integer, integer);

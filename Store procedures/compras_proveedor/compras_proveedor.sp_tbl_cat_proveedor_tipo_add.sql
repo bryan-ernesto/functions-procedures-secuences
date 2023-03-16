@@ -3,10 +3,10 @@
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
  Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Descripción: procedimiento que agrega un nuevo tipo de proveedor.
+ Dependencias: compras_proveedor.tbl_cat_proveedor_tipo
+ ERD: NO
+ Nombre ERD: NO
  */
 -- PROCEDURE: compras_proveedor.sp_tbl_cat_proveedor_tipo_add(character varying, integer)
 -- DROP PROCEDURE IF EXISTS compras_proveedor.sp_tbl_cat_proveedor_tipo_add(character varying, integer);

@@ -2,11 +2,11 @@
  Creado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
- Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Modificado: 16 marzo 2023
+ Descripción: función que obtiene la información de los departamentos que esten asignados como departamentos responsables
+ Dependencias: usuarios.tbl_det_departamento_asignacion_responsable, usuarios.tbl_cat_departamento, usuarios.tbl_cat_usuario
+ ERD: NO
+ Nombre ERD: NO
  */
 -- FUNCTION: usuarios.get_departamento_responsable(integer)
 -- DROP FUNCTION IF EXISTS usuarios.get_departamento_responsable(integer);

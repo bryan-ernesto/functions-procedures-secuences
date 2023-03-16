@@ -2,8 +2,8 @@
  Creado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
- Modificado: 13 marzo 2023
- Descripción: 
+ Modificado: 16 marzo 2023
+ Descripción: función que permite hacer un conteo del tiempo que un usuario permanece activo durante el día
  Dependencias: 
  ERD:
  Nombre ERD: 

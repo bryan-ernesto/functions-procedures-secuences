@@ -2,9 +2,9 @@
  Creado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
- Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
+ Modificado: 16 marzo 2023
+ Descripción: procedimiento que muestra la información de todos los proveedores
+ Dependencias: compras_proveedor.tbl_cat_proveedor, compras_proveedor.tbl_cat_proveedor_giro, compras_proveedor.tbl_cat_proveedor_tipo, usuarios.tbl_cat_usuario
  ERD:
  Nombre ERD: 
  */

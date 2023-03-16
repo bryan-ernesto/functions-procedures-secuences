@@ -2,11 +2,11 @@
  Creado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
- Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Modificado: 16 marzo 2023
+ Descripción: procedimiento que permite modificar la información de un proveedor por medio de su id
+ Dependencias: compras_proveedor.tbl_cat_proveedor
+ ERD: NO
+ Nombre ERD: NO
  */
 -- PROCEDURE: compras_proveedor.sp_tbl_cat_proveedor_update(integer, integer, integer, character varying, character varying, character varying, integer, integer, character varying, integer, integer, integer)
 -- DROP PROCEDURE IF EXISTS compras_proveedor.sp_tbl_cat_proveedor_update(integer, integer, integer, character varying, character varying, character varying, integer, integer, character varying, integer, integer, integer);
