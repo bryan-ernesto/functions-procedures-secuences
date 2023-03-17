@@ -3,10 +3,10 @@
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
  Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Descripción: función que permite agregar un nuevo marcaje entrada o salida
+ Dependencias: general.tbl_bit_marcaje, general.tbl_bit_marcaje_id_bit_marcaje_seq
+ ERD: NO
+ Nombre ERD: NO
  */
 -- FUNCTION: general.add_marcaje(character varying, character varying)
 -- DROP FUNCTION IF EXISTS general.add_marcaje(character varying, character varying);
