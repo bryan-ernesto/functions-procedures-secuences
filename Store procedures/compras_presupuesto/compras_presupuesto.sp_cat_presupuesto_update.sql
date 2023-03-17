@@ -3,7 +3,7 @@
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
  Modificado: 16 marzo 2023
- Descripción: procedimiento que permite actualizar la información de un presupuesto
+ Descripción: procedimiento que permite actualizar la información en el catalogo de un presupuesto
  Dependencias: compras_presupuesto.tbl_cat_presupuesto
  ERD: NO
  Nombre ERD: NO
