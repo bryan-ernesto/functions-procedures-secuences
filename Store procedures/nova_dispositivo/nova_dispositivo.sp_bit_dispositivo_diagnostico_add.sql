@@ -2,11 +2,11 @@
  Creado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
- Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Modificado: 17 marzo 2023
+ Descripción: procedimiento que permite agregar la información y especificaciones de un dispositivo
+ Dependencias: nova_dispositivo.tbl_bit_dispositivo_diagnostico
+ ERD: NO
+ Nombre ERD: NO
  */
 -- PROCEDURE: nova_dispositivo.sp_bit_dispositivo_diagnostico_add(integer, numeric, time without time zone, integer, numeric, numeric, numeric, numeric, integer, integer, integer, integer)
 -- DROP PROCEDURE IF EXISTS nova_dispositivo.sp_bit_dispositivo_diagnostico_add(integer, numeric, time without time zone, integer, numeric, numeric, numeric, numeric, integer, integer, integer, integer);

@@ -2,11 +2,11 @@
  Creado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
- Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Modificado: 17 marzo 2023
+ Descripción: proceso que permite agregar una nueva aplicación al catálogo de aplicaciones
+ Dependencias: nova_aplicacion.tbl_cat_aplicacion
+ ERD: NO
+ Nombre ERD: NO
  */
 -- PROCEDURE: nova_aplicacion.sp_nova_aplicacion_add(character varying, character varying, integer, integer, integer)
 -- DROP PROCEDURE IF EXISTS nova_aplicacion.sp_nova_aplicacion_add(character varying, character varying, integer, integer, integer);

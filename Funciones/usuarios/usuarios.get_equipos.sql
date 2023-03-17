@@ -2,21 +2,11 @@
  Creado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
- Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
- */
-/*
- Creado por: Bryan Gámez (bgamez@groupnova.com.gt)
- Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
- Creado: 13 marzo 2023
- Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Modificado: 17 marzo 2023
+ Descripción: función que obtiene toda la información de todos los equipos o de un equipo por medio de su nombre
+ Dependencias: usuarios.tbl_cat_equipo, usuarios.tbl_cat_departamento, usuarios.tbl_cat_usuario
+ ERD: NO
+ Nombre ERD: NO
  */
 -- FUNCTION: usuarios.get_equipos(character varying, integer, integer, integer)
 -- DROP FUNCTION IF EXISTS usuarios.get_equipos(character varying, integer, integer, integer);

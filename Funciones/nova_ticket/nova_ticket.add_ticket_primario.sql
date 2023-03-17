@@ -2,11 +2,11 @@
  Creado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
- Modificado: 13 marzo 2023
+ Modificado: 17 marzo 2023
  Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Dependencias: nova_ticket.tbl_bit_ticket_id_bit_ticket_seq, nova_ticket.tbl_bit_ticket, usuarios.tbl_cat_equipo, usuarios.tbl_cat_departamento, usuarios.tbl_cat_empresa, nova_ticket.tbl_bit_ticket, usuarios.tbl_cat_departamento
+ ERD: NO
+ Nombre ERD: NO
  */
 -- FUNCTION: nova_ticket.add_ticket_primario(character varying, character varying, integer, integer, integer, integer, character varying, integer, integer, integer, integer, integer, integer, integer)
 -- DROP FUNCTION IF EXISTS nova_ticket.add_ticket_primario(character varying, character varying, integer, integer, integer, integer, character varying, integer, integer, integer, integer, integer, integer, integer);

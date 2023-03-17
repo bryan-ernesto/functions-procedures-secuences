@@ -4,9 +4,9 @@
  Creado: 13 marzo 2023
  Modificado: 16 marzo 2023
  Descripción: función que permite hacer un conteo del tiempo que un usuario permanece activo durante el día
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Dependencias: nova_proceso_tarea.tbl_bit_tarea_registro, nova_proceso_tarea.tbl_cat_tarea
+ ERD: NO
+ Nombre ERD: NO
  */
 -- FUNCTION: nova_proceso_tarea.get_count_tiempo_activo_x_dia_actual(integer, integer)
 -- DROP FUNCTION IF EXISTS nova_proceso_tarea.get_count_tiempo_activo_x_dia_actual(integer, integer);

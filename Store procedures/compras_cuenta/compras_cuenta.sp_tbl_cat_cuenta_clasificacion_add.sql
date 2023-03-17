@@ -2,9 +2,9 @@
  Creado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
- Modificado: 16 marzo 2023
+ Modificado: 17 marzo 2023
  Descripción: Procedimiento que permite agregar una nueva clasificación de cuentas
- Dependencias: 
+ Dependencias: compras_cuenta.tbl_cat_cuenta_clasificacion
  ERD: NO
  Nombre ERD: NO 
  */

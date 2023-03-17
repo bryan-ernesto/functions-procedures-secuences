@@ -2,11 +2,11 @@
  Creado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
- Modificado: 16 marzo 2023
+ Modificado: 17 marzo 2023
  Descripción: procedimiento que muestra la información de todos los proveedores
  Dependencias: compras_proveedor.tbl_cat_proveedor, compras_proveedor.tbl_cat_proveedor_giro, compras_proveedor.tbl_cat_proveedor_tipo, usuarios.tbl_cat_usuario
- ERD:
- Nombre ERD: 
+ ERD: NO
+ Nombre ERD: NO
  */
 -- FUNCTION: compras_proveedor.get_cat_proveedor(character varying, character varying, character varying, integer, integer, integer, integer)
 -- DROP FUNCTION IF EXISTS compras_proveedor.get_cat_proveedor(character varying, character varying, character varying, integer, integer, integer, integer);

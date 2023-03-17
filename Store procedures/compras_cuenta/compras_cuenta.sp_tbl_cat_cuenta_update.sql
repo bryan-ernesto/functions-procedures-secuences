@@ -2,7 +2,7 @@
  Creado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
- Modificado: 13 marzo 2023
+ Modificado: 16 marzo 2023
  Descripción: Procedimiento que permite la actualización de una cuenta con los parámetros enviados
  Dependencias: compras_cuenta.tbl_cat_cuenta
  ERD: NO

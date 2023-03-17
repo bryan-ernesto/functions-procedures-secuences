@@ -2,11 +2,11 @@
  Creado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
- Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Modificado: 17 marzo 2023
+ Descripción: función que permite obtener la información de un equipo, además del nombre de la persona responsable
+ Dependencias: usuarios.tbl_det_equipo_asignacion_responsable, usuarios.tbl_cat_equipo
+ ERD: NO
+ Nombre ERD: NO
  */
 -- FUNCTION: usuarios.get_equipo_responsable(integer, integer)
 -- DROP FUNCTION IF EXISTS usuarios.get_equipo_responsable(integer, integer);

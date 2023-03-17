@@ -2,11 +2,11 @@
  Creado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
- Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Modificado: 17 marzo 2023
+ Descripción: función qué permite obtener la referencia de un ticket creado por medio de su id
+ Dependencias: nova_ticket.tbl_bit_ticket
+ ERD: NO
+ Nombre ERD: NO
  */
 -- FUNCTION: nova_ticket.get_referencia_ticket_creado(integer, integer)
 -- DROP FUNCTION IF EXISTS nova_ticket.get_referencia_ticket_creado(integer, integer);
