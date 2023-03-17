@@ -2,11 +2,11 @@
  Creado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
- Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Modificado: 17 marzo 2023
+ Descripción: secuencia que incrementa de uno en uno el id_bit_version_detalle de la tabla tbl_bit_version_detalle, cada vez que se ingrese un registro o se ejecute una función o procedimiento
+ Dependencias: tbl_bit_version_detalle
+ ERD: NO
+ Nombre ERD: NO
  */
 -- SEQUENCE: nova_version.tbl_bit_version_detalle_id_bit_version_detalle_seq
 -- DROP SEQUENCE IF EXISTS nova_version.tbl_bit_version_detalle_id_bit_version_detalle_seq;

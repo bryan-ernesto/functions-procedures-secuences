@@ -2,11 +2,11 @@
  Creado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
- Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Modificado: 17 marzo 2023
+ Descripción: secuencia que incrementa de uno en uno el id_cat_horario_accion de la tabla tbl_cat_horario_accion, cada vez que se ingrese un registro o se ejecute una función o procedimiento
+ Dependencias: tbl_cat_horario_accion
+ ERD: NO
+ Nombre ERD: NO
  */
 -- SEQUENCE: nova_horario.tbl_cat_horario_accion_id_cat_horario_accion_seq
 -- DROP SEQUENCE IF EXISTS nova_horario.tbl_cat_horario_accion_id_cat_horario_accion_seq;

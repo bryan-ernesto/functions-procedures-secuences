@@ -2,11 +2,11 @@
  Creado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Modificado por: Bryan Gámez (bgamez@groupnova.com.gt)
  Creado: 13 marzo 2023
- Modificado: 13 marzo 2023
- Descripción: 
- Dependencias: 
- ERD:
- Nombre ERD: 
+ Modificado: 17 marzo 2023
+ Descripción: secuencia que incrementa de uno en uno el id_bit_marcaje de la tabla tbl_bit_marcaje, cada vez que se ingrese un registro o se ejecute una función o procedimiento
+ Dependencias: tbl_bit_marcaje
+ ERD: NO
+ Nombre ERD: NO
  */
 -- SEQUENCE: general.tbl_bit_marcaje_id_bit_marcaje_seq
 -- DROP SEQUENCE IF EXISTS general.tbl_bit_marcaje_id_bit_marcaje_seq;
