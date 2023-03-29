@@ -4,7 +4,7 @@
  Creado: 29 marzo 2023
  Modificado: 29 marzo 2023
  Descripción: función que permite asignar un usuario a un grupo de permisos
- Dependencias: usuarios.tbl_det_usuario_asignacion_permiso
+ Dependencias: usuarios.tbl_det_usuario_asignacion_permiso, usuarios.tbl_id_cat_usuario, usuarios.tbl_cat_permiso_grupo
  ERD: NO
  Nombre ERD: NO
  */

@@ -4,7 +4,7 @@
  Creado: 29 marzo 2023
  Modificado: 29 marzo 2023
  Descripción: función que permite ingresar la información de un nuevo usuario
- Dependencias: usuarios.tbl_cat_usuario
+ Dependencias: usuarios.tbl_cat_usuario, usuarios.tbl_cat_usuario_dominio, usuarios.tbl_usuario_categoria
  ERD: NO
  Nombre ERD: NO
  */

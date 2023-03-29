@@ -4,7 +4,7 @@
  Creado: 29 marzo 2023
  Modificado: 29 marzo 2023
  Descripción: función que permite actualizar la información de un grupo de usuarios
- Dependencias: usuarios.tbl_cat_permiso_grupo
+ Dependencias: usuarios.tbl_cat_permiso_grupo, usuarios.tbl_cat_permiso_nivel
  ERD: NO
  Nombre ERD: NO
  */
