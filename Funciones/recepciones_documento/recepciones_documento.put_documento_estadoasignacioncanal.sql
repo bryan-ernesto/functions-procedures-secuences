@@ -8,7 +8,7 @@
  ERD: NO
  Nombre ERD: NO
  */
- -- FUNCTION: recepciones_documento.put_documento_estadoasignacioncanal(integer, integer, integer, numeric, integer, integer)
+-- FUNCTION: recepciones_documento.put_documento_estadoasignacioncanal(integer, integer, integer, numeric, integer, integer)
 
 -- DROP FUNCTION IF EXISTS recepciones_documento.put_documento_estadoasignacioncanal(integer, integer, integer, numeric, integer, integer);
 
