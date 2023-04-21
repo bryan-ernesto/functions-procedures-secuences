@@ -8,9 +8,9 @@
  ERD: NO
  Nombre ERD: NO
  */
--- FUNCTION: recepciones_documento.post_documento_solicituddetalle(integer, integer, bigint, character varying, integer, numeric, date, integer, character varying, integer, integer, integer, integer)
+-- FUNCTION: recepciones_documento.post_documento_solicituddetalle(integer, integer, bigint, character varying, integer, numeric, date, integer, character varying, integer, integer, integer, integer, integer, integer, integer, character varying, character varying, character varying, character varying, character varying)
 
--- DROP FUNCTION IF EXISTS recepciones_documento.post_documento_solicituddetalle(integer, integer, bigint, character varying, integer, numeric, date, integer, character varying, integer, integer, integer, integer);
+-- DROP FUNCTION IF EXISTS recepciones_documento.post_documento_solicituddetalle(integer, integer, bigint, character varying, integer, numeric, date, integer, character varying, integer, integer, integer, integer, integer, integer, integer, character varying, character varying, character varying, character varying, character varying);
 
 CREATE OR REPLACE FUNCTION recepciones_documento.post_documento_solicituddetalle(
 	int_id_det_documento_recepcion_solicitud integer,
@@ -25,7 +25,15 @@ CREATE OR REPLACE FUNCTION recepciones_documento.post_documento_solicituddetalle
 	int_id_cat_pais integer,
 	int_id_det_documento_anticipo integer,
 	int_id_creador integer,
-	int_adjunto_id_sharepoint integer)
+	int_adjunto_id_sharepoint integer,
+	int_cantidad integer,
+	int_cuenta_contable_sugerida integer,
+	int_centro_costo integer,
+	str_nombre_centro_costo character varying,
+	str_nombre_cuenta_sugerida character varying,
+	int_codigo_proveedor character varying,
+	str_nombre_proveedor character varying,
+	str_comentario character varying)
     RETURNS TABLE(id_documento_solicitud integer) 
     LANGUAGE 'plpgsql'
     COST 100
@@ -52,12 +60,20 @@ BEGIN
 		actualizado_por,
 		fecha_creacion,
 		fecha_actualizacion,
-		adjunto_id_sharepoint
+		adjunto_id_sharepoint,
+		cantidad,
+		cuenta_contable_sugerida,
+		centro_costo,
+		nombre_centro_costo,
+		nombre_cuenta_sugerida,
+		codigo_proveedor,
+		nombre_proveedor,
+		comentario
 	)
 	VALUES (
 		int_id_det_documento_recepcion_solicitud, -- idDetDocumentoRecepcionSolicitud
 		int_id_cat_documento_estado, -- idCatDocumentoEstado
-		int_dte, -- dte
+		cast (int_dte AS bigint), -- dte
 		str_proveedor, -- proveedor
 		int_nit, -- nit
 		numeric_monto, -- monto
@@ -71,11 +87,19 @@ BEGIN
 		int_id_creador, -- actualizadoPor
 		now(), -- fechaCreacion 
 		now(), -- fechaActualizacion
-		int_adjunto_id_sharepoint -- idSharepoint
+		int_adjunto_id_sharepoint, -- idSharepoint
+		int_cantidad,
+		int_cuenta_contable_sugerida,
+		int_centro_costo,
+		str_nombre_centro_costo,
+		str_nombre_cuenta_sugerida,
+		int_codigo_proveedor,
+		str_nombre_proveedor,
+		str_comentario
 	) RETURNING recepciones_documento.tbl_det_documento_recepcion_solicitud_detalle.id_det_documento_recepcion_solicitud_detalle;
 
 END;
 $BODY$;
 
-ALTER FUNCTION recepciones_documento.post_documento_solicituddetalle(integer, integer, bigint, character varying, integer, numeric, date, integer, character varying, integer, integer, integer, integer)
+ALTER FUNCTION recepciones_documento.post_documento_solicituddetalle(integer, integer, bigint, character varying, integer, numeric, date, integer, character varying, integer, integer, integer, integer, integer, integer, integer, character varying, character varying, character varying, character varying, character varying)
     OWNER TO vince;

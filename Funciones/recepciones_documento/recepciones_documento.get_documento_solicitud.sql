@@ -75,5 +75,5 @@ WHERE
 END 
 $BODY$;
 
-ALTER FUNCTION recepciones_documento.get_documento_solicitud(integer, character varying, character varying, character varying, integer)
+ALTER FUNCTION recepciones_documento.get_documento_solicitud(integer, integer, character varying, character varying, character varying, integer)
     OWNER TO vince;
